@@ -60,15 +60,3 @@ UV.utils = (function () {
     }
   }
 })();
-
-UV.utils.addField(['version'], function() {
-  return '1.2.1';
-});
-
-UV.utils.addField(['user'], function() {
-  return {};
-});
-
-UV.utils.addField(['basket'], function() {
-  return {};
-});
